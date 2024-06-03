@@ -8,8 +8,8 @@ cimport numpy as np
 import numpy as np
 from numpy.math cimport INFINITY
 
-from basic_euclidean import c_eucl_dist
-from basic_geographical import c_great_circle_distance
+from .basic_euclidean import c_eucl_dist
+from .basic_geographical import c_great_circle_distance
 
 ###########################
 #### DISCRET FRECHET ######
